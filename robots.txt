@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dterane.github.io/sitemap.xml
+Sitemap: https://davidsonterane.com/sitemap.xml
