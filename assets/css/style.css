@@ -1091,4 +1091,54 @@ outline: none;
     margin-top: -100px;
     transform: scale(0) rotateZ(-90deg);
   }
+} /* Close the @keyframes block here — do not add anything after this brace */
+
+.socialicon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border-radius: 50%;
+  background-color: #0f0f0f;
+  transition: 0.4s ease-in-out;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
 }
+
+.socialicon svg {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.socialicon:hover {
+  transform: scale(1.15);
+}
+
+/* Efè lumineux pou chak bouton sosyal */
+.socialicon.twitter:hover {
+  box-shadow: 0 0 15px #1DA1F2, 0 0 30px #1DA1F2;
+}
+
+.socialicon.dribbble:hover {
+  box-shadow: 0 0 15px #ea4c89, 0 0 30px #ea4c89;
+}
+
+.socialicon.facebook:hover {
+  box-shadow: 0 0 15px #1877F2, 0 0 30px #1877F2;
+}
+
+.socialicon.whatsapp:hover {
+  box-shadow: 0 0 15px #25D366, 0 0 30px #25D366;
+}
+
+.socialicon.mail:hover {
+  box-shadow: 0 0 15px #D44638, 0 0 30px #D44638;
+}
+
+.socialicon.youtube:hover {
+  box-shadow: 0 0 15px #FF0000, 0 0 30px #FF0000;
+  }
